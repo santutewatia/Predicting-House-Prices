@@ -1,0 +1,120 @@
+{
+  "baselines": {
+    "global_mean": {
+      "RMSE": 354170.84865278465,
+      "MAE": 235104.2598832999,
+      "MAPE_%": 56.409826329544764
+    },
+    "global_median": {
+      "RMSE": 360813.2901170023,
+      "MAE": 216775.82352941178,
+      "MAPE_%": 43.84637393721863
+    }
+  },
+  "SLR": {
+    "RMSE": 212721.55462009893,
+    "MAE": 112287.61680584241,
+    "R2": 0.6382928532792006,
+    "MAPE_%": 21.78477854219371
+  },
+  "MLR": {
+    "RMSE": 169597.02875847204,
+    "MAE": 105276.34595189022,
+    "R2": 0.7700832710691984,
+    "Adj_R2": 0.7684195042506089,
+    "MAPE_%": 21.7459055852546
+  },
+  "Champion": {
+    "RMSE": 169597.02510720593,
+    "MAE": 105276.31723913363,
+    "R2": 0.7700832809689845,
+    "MAPE_%": 21.745893821007222,
+    "Model": "ridgealpha0.01"
+  },
+  "CV_results": {
+    "ridgealpha0.01": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "lassoalpha0.01": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "elasticnetalpha0.01": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "ridgealpha0.1": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "lassoalpha0.1": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "elasticnetalpha0.1": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "ridgealpha1.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "lassoalpha1.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "elasticnetalpha1.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "ridgealpha5.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "lassoalpha5.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "elasticnetalpha5.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "ridgealpha10.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "lassoalpha10.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "elasticnetalpha10.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "ridgealpha25.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "lassoalpha25.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "elasticnetalpha25.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "ridgealpha50.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "lassoalpha50.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    },
+    "elasticnetalpha50.0": {
+      "CV_RMSE_mean": NaN,
+      "CV_RMSE_std": NaN
+    }
+  }
+}
