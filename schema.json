@@ -1,0 +1,30 @@
+{
+  "time_col": "date",
+  "num_features": [
+    "id",
+    "numberofbedrooms",
+    "numberofbathrooms",
+    "livingarea",
+    "lotarea",
+    "numberoffloors",
+    "waterfrontpresent",
+    "numberofviews",
+    "conditionofthehouse",
+    "gradeofthehouse",
+    "areaofthehouseexcludingbasement",
+    "areaofthebasement",
+    "builtyear",
+    "renovationyear",
+    "postalcode",
+    "lattitude",
+    "longitude",
+    "livingarearenov",
+    "lotarearenov",
+    "numberofschoolsnearby",
+    "distancefromtheairport"
+  ],
+  "cat_features": [],
+  "preprocessor": "Numeric: median+StandardScaler; Categorical: TargetEncoder or OneHot",
+  "split_strategy": "Time-based if date present, else random",
+  "random_seed": 42
+}
